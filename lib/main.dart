@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MiApp()); // llama al primer widget que se ejecutará
+void main() => runApp(MyApp()); // llama al primer widget que se ejecutará
 
 /*
 void main() {
-    runApp(MiApp);
+    runApp(MyApp);
 }*/
 
-class MiApp extends StatelessWidget {
-  const MiApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
